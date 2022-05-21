@@ -1,0 +1,24 @@
+@mixin style-none {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+@mixin d-flex {
+    display: flex;
+    align-items: center;
+}
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

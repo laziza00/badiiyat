@@ -1,0 +1,17 @@
+@import '../../assets/scss/main.scss';
+@import '../../assets/scss/_fonts.scss';
+
+.hero__btns {
+    margin: 10px 0 0;
+    @include d-flex;
+}
+.hero__btn {
+    background-color: $white-color;
+    border: none;
+    border-radius: 10px;
+    width: 58px;
+    height: 3px;
+}
+.hero__btn:not(:last-child) {
+    margin-right: 11px;
+}
