@@ -1,6 +1,6 @@
 import React from 'react'
 import './Search.scss'
-import obj from '../../Object'
+import obj from '../../../Object'
 
 function Search(props) {
 

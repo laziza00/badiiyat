@@ -1,14 +1,14 @@
 import React from 'react'
-import CategoryNav from './CategoryNav'
+import CategoryNav from './CategoryNav/CategoryNav'
 import './Category.scss'
 import Aux from '../../hoc/Aux'
-import CategoryList from './CategoryList'
+import CategoryList from './CategoryList/CategoryList'
 
 function Category(props) {
 
-    let categoryArr = ["Temuriylar davri", "Jadid adabiyoti", "Sovet davri", "Mustaqillik davri"]
+    let categoryArr = ["All", "Temuriylar davri", "Jadid adabiyoti", "Sovet davri", "Mustaqillik davri"]
 
-    let typeArr =['temuriy', "jadid", "sovet", "mustaqillik"]
+    let typeArr =[' ', 'temuriy', "jadid", "sovet", "mustaqillik"]
 
   return (
         <Aux>
@@ -29,15 +29,17 @@ function Category(props) {
                                      />
                             })}
                          </ul>
-                    
-                        <ul className='category__list'>
-                        {props.arr.map((item, index)=> (
-                            <CategoryList
-                            item={item}
-                            key={"e"+index}
-                                    />
-                            ))}
-                       </ul>
+                        <div className='category__list-box'>
+                            <ul className='category__list'>
+                                {props.arr.map((item, index)=> (
+                                    <CategoryList
+                                    item={item}
+                                    key={"e"+index}
+                                    userId= {item.userId}
+                                            />
+                                    ))}
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

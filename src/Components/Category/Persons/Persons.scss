@@ -1,0 +1,154 @@
+@import '../../../assets/scss/main.scss';
+@import '../../../assets/scss/_fonts.scss';
+
+.person {
+    padding: 40px 0;
+
+    &__inner {
+        @include between;
+    }&__info {
+        margin: 0 0 0 30px ;
+    }
+    &__img {
+        width: 562px;
+        height: 779px;
+       
+    }
+    &__img-box {
+        margin: 0 30px 40px 0;
+    }
+    &__title {
+        @include title;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    &__desc {
+        font-family:'Steinbeck';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.8);
+        margin: 0 0 32px 0;
+        width: 671px;
+    }
+    &__bookmark-box {
+        @include d-flex;
+        margin: 0 0 5px 0;
+    }
+    &__bookmark-box i{
+        font-size: 25px;
+        color: $primary-color;
+        margin: 0 10px 0 0;
+    }
+    &__genre {
+        font-family: 'Rotterburg Stylish FREE';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: #C9AC8C;
+    }
+    &__life {
+        font-family: 'Steinbeck';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 154.9%;
+        color: #FFFFFF;
+        width: 362px;
+        margin: 0 0 53px 0;
+    }
+    &__inner-box {
+        @include between;
+        margin: 0 0 13px 0;
+    }
+    &__inner-link {
+        font-family: 'Steinbeck';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: $white-color;
+        text-decoration: none;
+    }
+    &__inner-title {
+        font-family: 'Rotterburg Stylish FREE';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 34px;
+        text-align: center;
+        color: $primary-color;
+    }
+    &__list {
+        @include style-none;
+        @include between;
+    }&__item {
+        width: 164px;
+        height: 246px;
+        margin: 0 7px;
+    }
+    &__inner-img {
+        width: 164px;
+        height: 246px;
+        margin: 0 0 17px 0;
+        border-radius: 10px;
+    }
+    &__inner-name {
+        font-family: 'Rotterburg Stylish FREE';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: $primary-color;
+    }
+    &__num-box {
+        @include d-flex;
+        margin: 6px 0 0;
+    }
+    &__num-box i{
+        font-size: 16px;
+        color: $white-color;
+        margin: 0 6px 0 0;
+    }
+    &__num {
+        font-family: 'Visuelt Pro';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &__seen {
+        font-family: 'Visuelt Pro';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &__date {
+        font-family: 'Rotterburg Stylish FREE';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 39px;
+        line-height: 144.4%;
+        color: $primary-color;
+    }
+    &__country {
+        font-family: 'Visuelt Pro';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &__img-inner__box {
+        @include between;
+        
+    }
+}

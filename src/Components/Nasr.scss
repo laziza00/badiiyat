@@ -1,0 +1,160 @@
+@import '../assets/scss/main.scss';
+@import '../assets/scss/_fonts.scss';
+
+.book {
+    &__inner {
+        @include between;
+        margin: 58px 0 0;
+    }
+    &__img-box {
+        margin: 0 30px 0 0;
+    }
+    &__img {
+        width: 519px;
+        height: 810px;
+        border-radius: 15px;
+    }
+    &__title {
+        @include title;
+        text-align: left;
+        font-weight: 400 !important;
+        margin: 0 0 14px 0;
+    }
+    &__author {
+        @include text-little;
+        margin: 0 0 41px 0;
+        text-align: left;
+    }
+    &__list {
+        @include style-none;
+    }
+    &__item {
+        margin: 0 0 20px 0;
+        @include d-flex;
+    }
+    &__item-text {
+        @include text-littleWhite;
+        margin: 0 10px 0;
+    }
+    &__item-num {
+        @include text-Num;
+    }
+    &__mal-box i {
+        color: $white-color;
+        font-size: 14px;
+        margin: 0 15px 0 11px;
+    }
+    &__line {
+        width: 564.25px;
+        height: 0px;
+        border: 1px solid rgba(201, 172, 140, 0.6);
+    }
+    &__mal {
+        margin: 0;
+    }
+
+    &__mal-box {
+        @include d-flex;
+        align-items: center;
+        margin: 0 0 56px 0;
+    }
+
+    &__text-info {
+        @include text;
+        margin: 0 0 47px;
+    }
+    &__form-box {
+        @include between;
+    }
+    &__form {
+        margin: 0 0 31px 0;
+    }
+    &__form-list {
+        @include d-flex;
+        @include style-none;
+    }
+    &__form-item {
+        justify-content: center;
+        margin: 0 31px 0;
+    }
+    &__form-item i {
+        font-size: 16px;
+        color: $white-color;
+        margin: 0 auto 10px auto;
+        text-align: center;
+    }
+    &__form-title {
+        font-family: 'Steinbeck';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #fff;
+        margin: 0 0 8px ;
+    }
+    &__form-price {
+        font-family: 'Steinbeck';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &__form-btn {
+        padding: 16px 32px;
+        gap: 10px;
+        width: 200px;
+        height: 48px;
+        background: $primary-color;
+        font-family: 'Steinbeck';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #3C2710;
+    }
+    &__nav-list {
+        @include style-none;
+        @include d-flex;
+        margin: 65px 0 0;
+    }
+    &__nav-item {
+        @include text-littleWhite;
+        margin: 0 69px 0 0;
+    }
+    &__inner-box {
+        @include between;
+        margin: 10px 0 0;
+    }
+    .quotes {
+        font-size: 30px;
+        color: $primary-color;
+    }
+    &__inner-text {
+        @include text;
+        width: 566px;
+    }
+    &__share {
+        @include d-flex;
+        text-align: right;
+        justify-content: flex-end;
+    }
+    &__share i{
+        font-size: 20px;
+        color: $white-color;
+    }
+    &__quotes {
+        background: linear-gradient(263.94deg, #161616 0%, #1E1E1E 98.06%);
+        border-radius: 15px;
+        padding: 50px 36px;
+        width: 48%;
+    }
+    &__link {
+        font-family: 'Steinbeck';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: $primary-color;
+    }
+}

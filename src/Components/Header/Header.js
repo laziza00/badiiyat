@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './Header.scss'
 import logo from '../../assets/images/Badiiyat.svg'
 import heroPerson from '../../assets/images/hero-person.png'
+
 
 
 function Header() {
@@ -18,29 +20,29 @@ function Header() {
                     <nav className='header__nav'>
                         <ul className='header__list'>
                             <li className='header__item'>
-                                <a className='header__link'>
-                                Bosh sahifa
-                                </a>
+                                <Link className='header__link'   to="/">
+                                    Bosh sahifa
+                                </Link>
                             </li>
                             <li className='header__item'>
-                                <a className='header__link'>
+                                <Link className='header__link' to="/nasr">
                                    Nasr
-                                </a>
+                                </Link>
                             </li>
                             <li className='header__item'>
-                                <a className='header__link'>
+                                <Link className='header__link' to="/nazm">
                                 Nazm
-                                </a>
+                                </Link>
                             </li>
                             <li className='header__item'>
-                                <a className='header__link'>
+                                <Link className='header__link' to="/maqolalar">
                                 Maqolalar
-                                </a>
+                                </Link>
                             </li>
                             <li className='header__item'>
-                                <a className='header__link'>
+                                <Link className='header__link' to="/forum">
                                 Forum
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </nav>

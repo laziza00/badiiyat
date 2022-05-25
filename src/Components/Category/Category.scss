@@ -32,6 +32,10 @@
         background-color: transparent;
         padding: 6px 0;
     }
+    &__nav-item:hover {
+        color: #eec292;
+        transition: all 0.3s ease;
+    }
     &__list-box {
         margin: 51px 0 0;
     }
@@ -46,7 +50,11 @@
         border-radius: 15px;
         margin: 0 15px 44px;
         width: 174px;
-        height: 249px;
+        height: 269px;
+        text-decoration: none;
+    }
+    &__img-box {
+        overflow: hidden;
     }
     &__item-inner {
         padding: 0 14px 25px;
@@ -55,6 +63,12 @@
         width: 174px;
         height: 132px;
         margin: 0 0 12px 0;
+        transition: all 0.3s ease;
+        border-radius: none;
+    }
+    &__item-img:hover {
+        transform: scale(1.068);
+        transition: all 0.3s ease;
     }
     &__item-title {
         font-family: 'Steinbeck';
@@ -81,5 +95,6 @@
         width: 125px;
         height: 24px;
         margin: 0 auto;
+        text-align: center;
     }
 }
