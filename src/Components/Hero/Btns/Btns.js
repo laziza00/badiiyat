@@ -2,14 +2,13 @@ import React from 'react'
 import './Btns.scss'
 
 
-function Btns() {
+function Btns(props) {
   return (
     <div>
         <div className='hero__btns'>
-            <button className='hero__btn'></button>
-            <button className='hero__btn'></button>
-            <button className='hero__btn'></button>
-            <button className='hero__btn'></button>
+          {props.sliderImg.map((item, i)=> (
+            <button className='hero__btn'key ={i+1} id={item.id} onClick={props.sliderFunc}></button>
+          ))}
         </div>
     </div>
   )

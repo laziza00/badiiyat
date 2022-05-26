@@ -12,7 +12,7 @@
     &__img {
         width: 562px;
         height: 779px;
-       
+        object-fit: cover;
     }
     &__img-box {
         margin: 0 30px 40px 0;
@@ -150,5 +150,8 @@
     &__img-inner__box {
         @include between;
         
+    }
+    &__main-link {
+        text-decoration: none;
     }
 }

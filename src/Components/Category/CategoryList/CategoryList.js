@@ -7,7 +7,7 @@ function CategoryList(props) {
 
   return (
     
-            <Link className='category__item' to={`Persons/${props.item.userId}`} id={props.item.userId}>
+            <Link className='category__item' to={`Persons/${props.item.id}`} id={props.item.id}>
                 <div className='category__img-box'>
                       <img className='category__item-img' src={props.item.img}/>
                 </div>

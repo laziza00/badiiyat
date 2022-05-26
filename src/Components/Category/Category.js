@@ -6,9 +6,9 @@ import CategoryList from './CategoryList/CategoryList'
 
 function Category(props) {
 
-    let categoryArr = ["All", "Temuriylar davri", "Jadid adabiyoti", "Sovet davri", "Mustaqillik davri"]
+    let categoryArr = ["All", "Jahon adabiyoti", "Diniy adabiyot", "O'zbek adabiyoti", "Biznes adabiyoti"]
 
-    let typeArr =[' ', 'temuriy', "jadid", "sovet", "mustaqillik"]
+    let typeArr =[' ', 'jahon', "Diniy", "o'zbek","biznes"]
 
   return (
         <Aux>
@@ -35,7 +35,7 @@ function Category(props) {
                                     <CategoryList
                                     item={item}
                                     key={"e"+index}
-                                    userId= {item.userId}
+                                    id= {item.id}
                                             />
                                     ))}
                             </ul>

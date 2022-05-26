@@ -4,7 +4,7 @@ import './Main.scss'
 import Hero from './Hero/Hero'
 import Aux from '../hoc/Aux'
 import Category from './Category/Category'
-import obj from '../Object'
+import obj from '../anotherObject'
 
 
 function Main() {

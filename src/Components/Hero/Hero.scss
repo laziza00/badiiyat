@@ -12,19 +12,19 @@
         height: 100%;
     }
     &__list {
-        width: 100%;
-        height: 100%;
-        @include style-none;
-    }
-    &__item {
         border-radius: 21px;
         padding: 45px 0 0 86px;
         width: 1262px;
         height: 347px;
-        background-image: url('../../assets/images/hero-bg.png');
-        background-repeat: no-repeat;
-        background-size: 1262px 347px;
-        background-position:  cover;
+        @include style-none;
+        @include d-flex;
+        overflow: hidden;
+    }
+    &__item {
+        border-radius: 21px;
+        padding: 45px 0 0 86px;
+        width: 100%;
+        height: 100%;
     }
     &__title {
         font-family: 'Rotterburg Stylish FREE';

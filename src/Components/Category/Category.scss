@@ -61,10 +61,11 @@
     }
     &__item-img {
         width: 174px;
-        height: 132px;
+        height: 142px;
         margin: 0 0 12px 0;
         transition: all 0.3s ease;
         border-radius: none;
+        object-fit: cover;
     }
     &__item-img:hover {
         transform: scale(1.068);

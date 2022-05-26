@@ -5,29 +5,31 @@ function CategoryNav(props) {
 
 
 const filteredByName =(e)=> {
+    console.log(e.target.id);
     
     if(e.target.id ===" ") {
         props.setArr(props.obj)
+       
     }
-    if(e.target.id === "temuriy") {
+    if(e.target.id === "jahon") {
     
         props.setArr(props.obj.filter(item => {
-            return item.id === e.target.id
+            return item.genre === e.target.id
         }))
     }
-    if(e.target.id === "jadid") {
+    if(e.target.id ==="o'zbek") {
         props.setArr(props.obj.filter(item=> {
-            return item.id === e.target.id
+            return (item.genre === e.target.id )
         }))
     }
-    if(e.target.id === "sovet") {
+    if(e.target.id === "Diniy") {
         props.setArr(props.obj.filter(item => {
-            return item.id === e.target.id
+            return item.genre === e.target.id
         }))
     }
-    if(e.target.id === "mustaqillik") {
+    if(e.target.id === "biznes") {
         props.setArr(props.obj.filter(item => {
-            return item.id === e.target.id
+            return item.genre === e.target.id
         }))
     }
 

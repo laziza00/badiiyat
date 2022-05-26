@@ -46,12 +46,18 @@ function Header() {
                             </li>
                         </ul>
                     </nav>
-                    <div className='header__next-box'>
-                        <img  src={heroPerson} className='header__next-img'/>
-                        <button className='header__btn btn'>
-                        <i className='bx bx-chevron-down'></i>
-                        </button>
-                    </div>
+                  
+                        <div className="dropdown header__next-box'">
+                            <img  src={heroPerson} className='header__next-img'/>
+                            <button className="btn header__btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i className='bx bx-chevron-down'></i>
+                            </button>
+                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><Link className="dropdown-item" to="/profile">Profile</Link></li>
+                                <li><Link className="dropdown-item" to="/settings">Settings</Link></li>
+                            </ul>
+                            </div>
+                 
                 </div>
             </div>
         </header>
