@@ -23,7 +23,7 @@ let emailHandler =(e)=> {
         <div className='container'>
             <div className='setting__inner'>
                 <div className='setting__img-box'>
-                    <img className='setting__img' src="https:/picsum.photos/id/11/200/200"/>
+                    <img className='setting__img' src="https:/picsum.photos/id/11/175/175"/>
                     <button className='setting__img-btn'>
                     <i className='bx bx-camera'></i>
                     </button>
