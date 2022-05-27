@@ -41,13 +41,14 @@ const [id, setId]= useState(1)
 
 
 const sliderFunc =(e)=> {
+  console.log(e.target);
   let id = Math.floor(e.target.id)
   setId(Math.floor(e.target.id))
   setTime(3000)
 
   setSliderImg(
     sliderImg.map((item, i)=> {
-      if(id == item.id){
+      if(e.target.id == item.id){
         setsliderCount(item.id)
         return {
           ...item,
@@ -67,22 +68,20 @@ const sliderFunc =(e)=> {
           <div className='hero'>
             <div className='container'>
               <div className='hero__inner'>
-       
-              <Btns sliderImg={sliderImg} sliderFunc={sliderFunc}/>
-              <div>
-              {/* <h1 className='hero__title'>Temuriylar 
-                  davri 
-                  adabiyoti
-                </h1> */}
-              <HeroList sliderImg={sliderImg} img={heroBg} sliderCount={sliderCount}/>
+              <h2 className='hero__title'>Temuriylar  <br /> davri <br /> adabiyoti</h2>
+                  <Btns sliderImg={sliderImg} sliderFunc={sliderFunc} />
+               <div className='hero__slider'>
+                  <HeroList 
+                  sliderImg = {sliderImg} 
+                  img = {heroBg} 
+                  sliderCount={sliderCount}/>
               </div>
               </div>
               <div className='hero__search'>
               <Search
                 obj={props.obj}
                 arr ={props.arr}
-                setArr ={props.setArr}
-                
+                setArr ={props.setArr}  
               />
               </div>
             </div>

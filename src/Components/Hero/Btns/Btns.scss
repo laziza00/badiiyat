@@ -4,6 +4,10 @@
 .hero__btns {
     margin: 10px 0 0;
     @include d-flex;
+    position: absolute;
+    bottom: 85px;
+    left: 85px;
+    z-index: 5;
 }
 .hero__btn {
     background-color: $white-color;
@@ -12,6 +16,7 @@
     width: 58px;
     height: 3px;
     cursor: pointer;
+    padding: 2px 0;
 }
 .hero__btn:not(:last-child) {
     margin-right: 11px;

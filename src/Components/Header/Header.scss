@@ -40,6 +40,9 @@
     &__item:hover::after {
         opacity: 1;
     }
+    &__item:hover &__link {
+        color: #C9AC8C;
+    }
     &__link {
         font-family: 'HelveticaNeueCyr';
         font-style: normal;

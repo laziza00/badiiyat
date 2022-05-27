@@ -9,31 +9,41 @@
     border-radius: 21px;
     &__inner {
         width: 100%;
-        height: 100%;
+        position: relative;
+    }
+    &__slider {
+        position: relative;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        border-radius: 21px;
     }
     &__list {
-        border-radius: 21px;
-        padding: 45px 0 0 86px;
-        width: 1262px;
-        height: 347px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
         @include style-none;
         @include d-flex;
-        overflow: hidden;
+
     }
     &__item {
-        border-radius: 21px;
-        padding: 45px 0 0 86px;
+        min-width: 1260px;
+        background-repeat: 21px;
         width: 100%;
         height: 100%;
     }
     &__title {
+        position: absolute;
+        top: 45px;
+        left: 85px;
         font-family: 'Rotterburg Stylish FREE';
         font-style: normal;
         font-weight: 400;
         font-size: 61px;
         line-height: 67px;
-        width: 30%;
-        color: #C9AC8C;
+        color: $primary-color;
+        z-index: 5;
+   
     }
     &__search {
         position: relative;

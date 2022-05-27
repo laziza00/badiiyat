@@ -4,13 +4,12 @@ import './Btns.scss'
 
 function Btns(props) {
   return (
-    <div>
         <div className='hero__btns'>
           {props.sliderImg.map((item, i)=> (
-            <button className='hero__btn'key ={i+1} id={item.id} onClick={props.sliderFunc}></button>
+            <button className={`hero__btn ${item.act ? "hero__btn-act" : ""}`} key ={i+1} id={item.id} onClick={props.sliderFunc}></button>
           ))}
         </div>
-    </div>
+
   )
 }
 
