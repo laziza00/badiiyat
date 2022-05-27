@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Aux from "../../hoc/Aux";
 import './Profile.scss'
 import imgUser from "../../assets/images/avloniy.png"
 import bookImg from "../../assets/images/avloniy.png"
+import PersonItem from "../Category/Persons/PersonItem";
 
-function Profile(){
+function Profile(props){
+
+    useEffect(()=> {
+        let arr =props.saved;
+        let topArr =[]
+
+        props.saved.forEach(element => {
+            if(arr != "")topArr.push(arr[0]);
+            arr =arr.filter(el=> {
+                return arr[0][0].bookId !=el[0].bookId
+            })
+
+        });
+        props.setSaved(topArr)
+    }, [])
     return(
         <>
             <Aux>
@@ -24,9 +39,9 @@ function Profile(){
                             <p className="users__text">186 ta kitob o'qigan</p>
                             </div>
                             <div className="users__descBox">
-                            <h2 className="users__name">Farruxbek Abdullayev</h2>
-                            <p className="users__info"><span>Tavallud: </span> February 08, 1999</p>
-                            <p className="users__info"><span>Manzili: </span> Jizzax</p>
+                            <h2 className="users__name">{props.name} {props.lastName}</h2>
+                            <p className="users__info"><span>Telefoni: </span>  {props.phone}</p>
+                            <p className="users__info"><span>Email: </span> {props.email}</p>
                             <p className="users__info"><span>Bio: </span> Graphic designer and Developer</p>
                             </div>
                         </div>
@@ -36,34 +51,17 @@ function Profile(){
             
                 </div>
                 <h2 className="books__title">Kitoblar</h2>
-                <ul className="books__list">
-                    <li className="asar__item">
-                        <img className="asar__bookImg" src={bookImg} alt="book" />
-                        <div className="asar__infoBox">
-                            <h4 className="asar__bookTitle">Qo'rqma</h4>
-                            <p className="asar__auther">Javlon Jovliyev</p>
-                            <i className='bx bxs-star' style={{color: '#fff'}}></i>
-                            <span className="asar__mind">5.5 ta fikrlar</span>
-                        </div>                           
-                    </li> 
-                    <li className="asar__item">
-                        <img className="asar__bookImg" src={bookImg} alt="book" />
-                        <div className="asar__infoBox">
-                            <h4 className="asar__bookTitle">Qo'rqma</h4>
-                            <p className="asar__auther">Javlon Jovliyev</p>
-                            <i className='bx bxs-star' style={{color: '#fff'}}></i>
-                            <span className="asar__mind">5.5 ta fikrlar</span>
-                        </div>                           
-                    </li> 
-                    <li className="asar__item">
-                        <img className="asar__bookImg" src={bookImg} alt="book" />
-                        <div className="asar__infoBox">
-                            <h4 className="asar__bookTitle">Qo'rqma</h4>
-                            <p className="asar__auther">Javlon Jovliyev</p>
-                            <i className='bx bxs-star' style={{color: '#fff'}}></i>
-                            <span className="asar__mind">5.5 ta fikrlar</span>
-                        </div>                           
-                    </li> 
+                <ul className="books__list" style={{listStyleType: "none"}}>
+                    {props.saved.map((item, index)=> {
+                        return <PersonItem
+                        key={"asdtf"+index}
+                        bookImg={item[0].bookImg}
+                        bookName={item[0].bookName}
+                        bookRating={item[0].bookRating}
+                        till={index}
+                        id={item[0].bookId}
+                        />
+                    })}
                 </ul>
                 </div>
             </Aux>

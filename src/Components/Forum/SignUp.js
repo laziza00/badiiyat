@@ -22,6 +22,7 @@ function Forum(props) {
 
  let checkName =(e)=> {
       name = e.target.value
+      props.setName(name)
 
       if(name.match(/[a-z]/) !==null && name.match(/[!@#$%^&*]/)===null && name!= "" && name.match(/[0-9]/) ===null && name.length>=3) {
           setInputName(true)
@@ -31,6 +32,7 @@ function Forum(props) {
   }
  let checkLastName=(e)=> {
     lastName = e.target.value
+    props.setLastName(lastName)
 
     if(lastName.match(/[a-z]/) !==null && lastName.match(/[!@#$%^&*]/) ===null && lastName != "" && lastName.match(/[0-9]/)===null && lastName.length>=3 ) {
       setInputLastName(true)
@@ -40,6 +42,7 @@ function Forum(props) {
   }
  let checkPhone=(e)=> {
     phone = e.target.value
+    props.setPhone(phone)
 
     if(phone.match(/[a-z]/) === null && phone.match(/[0-9]/) !== null && phone.match(/[@#$%^&*]/) === null && phone.length >= 8){
       setInputPhone(true);
@@ -50,38 +53,30 @@ function Forum(props) {
 
   let checkEmail = (e) => {
     email = e.target.value;
+    props.setEmail(email)
 
     if(email.match(/[a-z]/) !== null && email.match(/[0-9]/) !== null && email.match(/[@]/) !== null && email.length >= 8){
       setInputEmail(true)
     }else{
       setInputEmail(false) 
     }
+    if(inputName == true && inputLastName == true && inputPhone == true  && inputEmail == true && inputPassword == true){
+      setTemp(true);
+    } else{
+      setTemp(false);
+      props.setIsTrue(false)
+    }
   }
 let checkPassword =(e)=> {
   let password = e.target.value
+  props.setPassword(password)
 
   if(password.match(/[a-z]/) !== null && password.match(/[0-9]/) !== null && password.match(/[@#$%^&*]/) === null && password.length <= 8){
     setInputPassword(true);
   }else{
     setInputPassword(false); 
   }
-  if(inputName == true && inputLastName == true && inputPhone == true  && inputEmail == true && inputPassword == true){
-    setTemp(true);
-  } else{
-    setTemp(false);
-  }
 }
-
-let submitHandler = () => {
-  props.setInputName(name);
-  props.setInputLastName(lastName);
-  props.setInputPhone(phone);
-  props.setInputEmail(email);
-  props.setInputPassword(password)
-}
-
-
-
   return (
     <div className='forum'>
         <div className='forum__inner'>
@@ -93,7 +88,7 @@ let submitHandler = () => {
                 <p className='forum__link-text'>Already have an account?
                 <Link className='forum__link' to={'/signin'}>Sign in</Link>
                 </p>
-                <form className='forum__form' onSubmit={submitHandler}>
+                <form className='forum__form' >
                       <input className="forum__input" 
                       type="text" 
                       style={{border: inputName? "1px solid green": "1px solid red"}}

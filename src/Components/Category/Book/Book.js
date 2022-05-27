@@ -1,16 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Book.scss'
-import { useLocation } from 'react-router-dom'
-import { Link } from 'react-router-dom';
+import {Link, useLocation} from 'react-router-dom'
+// import { Link } from 'react-router-dom';
+import obj from '../../../anotherObject'
+import CategoryList from '../CategoryList/CategoryList'
+import PersonItem from '../Persons/PersonItem'
+
 
 function Book(props) {
 let location = useLocation()
+let [arr, setArr] = useState(obj)
+
+let bookHandler =(elId)=> {
+    let temp =[]
+
+    arr.map((item, index)=> {
+        return item.bookObj.map((el, idx)=> {
+            if(el.bookId === elId) {
+                temp.push(el);
+                return el;
+            }
+        })
+    })
+    props.setSaved([...props.saved, temp])
+}
 
   return (
     <div className='book'>
       <div className='container'>
               
-            { props.obj.map((item, i)=> {
+            { obj.map((item, i)=> {
                 <h2>Heloooo</h2>
                 return item.bookObj.map((book, j)=> {
                     if(book.bookId == +location.pathname.split("/").at(-1)){
@@ -23,7 +42,7 @@ let location = useLocation()
                             <div className='book__info'>
                                 <h2 className='book__title'>{book.bookName}</h2>
                                <Link to={`/Persons/${item.id}`} className="book__main-link">
-                                   <p className='book__author'>{item.name}{item.lastName}</p>
+                                   <p className='book__author'>{item.name} {item.lastName}</p>
                                </Link> 
                                <ul className='book__list'>
                                    <li className='book__item' key={j}>
@@ -70,7 +89,9 @@ let location = useLocation()
                                         <p className='book__form-price'>{book.electron}</p>
                                    </li>
                                </ul>
-                               <button className='book__form-btn'>Javonga qo’shish </button>
+                               <button className='book__form-btn'
+                               onClick={()=> bookHandler(book.bookId)}
+                               >Javonga qo’shish </button>
                                </div>
                             </div>
                         </div>
@@ -109,15 +130,22 @@ let location = useLocation()
                                 <p className='book__other-link'>Barchasini ko’rish</p>
                             </div>
                             <div>
-                                <ul className='book__book-list'>
-                                    <li className='book__book-item'>
-                                        <img className='book__book-img' src=""/>
-                                            <h3 className='book__book-title'>Dunyoning ishlari</h3>
-                                            <div className='book__book-inner'>
-                                                <i className='bx bxs-star'></i>
-                                                <p className='book__book-num'>{book.bookRating} • 3400 ta fikrlar</p>
-                                            </div>
-                                    </li>
+                                <ul className='book__book-list' style={{listStyleType: "none", display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
+                                    {arr.map((thing, i)=> {
+                                        if(i<2) {
+                                            return thing.bookObj.map((book, index)=> {
+                                                return <PersonItem
+                                                key={"k"+index}
+                                                bookImg={book.bookImg}
+                                                bookName={book.bookName}
+                                                bookRating={book.bookRating}
+                                                till={index}
+                                                id={book.bookId}
+                                                />
+                                            }
+                                     ) }
+                                    })}
+                               
                                 </ul>
                             </div>
                         </div>

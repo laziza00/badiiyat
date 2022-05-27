@@ -1,5 +1,6 @@
-let obj = [{
-  id: "1",
+let obj = [
+  {
+  id: 1,
   name: "Ray",
   lastName: "Bradbury",
   born: 1942,
@@ -103,7 +104,7 @@ let obj = [{
   ]
 },
 {
-  id: "2",
+  id: 2,
   name: "Dan",
   lastName: "Brown",
   born: 1964,
@@ -207,7 +208,7 @@ let obj = [{
   ]
 },
 {
-  id: "3",
+  id: 3,
   name: "Mark",
   lastName: "Manson",
   born: 1984,
@@ -313,7 +314,7 @@ let obj = [{
   ]
 },
 {
-  id: "4",
+  id: 4,
   name: "Omina",
   lastName: "Shenliko'g'li",
   born: 1950,
@@ -418,7 +419,7 @@ let obj = [{
   ]
 },
 {
-  id: "5",
+  id: 5,
   name: "Mixail",
   lastName: "Bulgakov",
   born: 1891,
@@ -521,7 +522,7 @@ let obj = [{
   ]
 },
 {
-  id: "6",
+  id: 6,
   name: "Artur",
   lastName: "Doyl",
   born: 1859,
@@ -624,7 +625,7 @@ let obj = [{
   ]
 },
 {
-  id: "7",
+  id: 7,
   name: "Ahmad",
   lastName: "Qozonchi",
   born: 1936,
@@ -729,7 +730,7 @@ let obj = [{
   ]
 },
 {
-  id: "8",
+  id: 8,
   name: "Joanna",
   lastName: "Rouling",
   born: 1965,
@@ -832,7 +833,7 @@ let obj = [{
   ]
 },
 {
-  id: "9",
+  id: 9,
   name: "Muhammad Sodiq",
   lastName: "Muhammad Yusuf",
   born: 1952,
@@ -945,15 +946,8 @@ let obj = [{
     },
   ],
 },
-
-
-
-
-
-
-
 {
-  id: "10",
+  id: 10,
   name: "Imom Abu Homid Muhammad",
   lastName: "ibn Muhammad al-G‘azzoliy",
   born: 1058,
@@ -1064,17 +1058,8 @@ let obj = [{
   ],
 },
 
-
-
-
-
-
-
-
-
-
 {
-  id: "11",
+  id: 11,
   name: "Mubashshir",
   lastName: "Ahmad",
   born: 1058,
@@ -1179,17 +1164,8 @@ let obj = [{
     },
   ],
 },
-
-
-
-
-
-
-
-
-
 {
-  id: "12",
+  id: 12,
   name: "Abdumannon",
   lastName: "Abdulloh",
   born: 1782,
@@ -1295,13 +1271,8 @@ let obj = [{
   ],
 },
 
-
-
-
-
-
 {
-  id: "13",
+  id: 13,
   name: "Alixonto'ra",
   lastName: "Sog'uniy",
   born: 1782,
@@ -1405,35 +1376,8 @@ let obj = [{
   ],
 },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
-  id: "14",
+  id: 14,
   name: "Sunatulloh",
   lastName: "Abdulbosit",
   born: 1782,
@@ -1537,18 +1481,8 @@ let obj = [{
   ],
 },
 
-
-
-
-
-
-
-
-
-
-
 {
-  id: "15",
+  id: 15,
   name: "Shayx Zulfiqor",
   lastName: "Ahmad Naqshbandiy",
   born: 1782,
@@ -1653,35 +1587,8 @@ let obj = [{
 },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
-  id: "16",
+  id: 16,
   name: "Elif",
   lastName: "Shafaq",
   born: 1782,
@@ -1783,8 +1690,9 @@ let obj = [{
       electron: "pdf, epub",
     },
   ],
-}, {
-  id: "17",
+}, 
+{
+  id: 17,
   name: "Allan",
   lastName: "Dib",
   born: 1971,
@@ -1929,7 +1837,7 @@ let obj = [{
 },
 
 {
-  id: "18",
+  id: 18,
   name: "Kel",
   lastName: "Nyuport",
   born: 1982,
@@ -2052,7 +1960,7 @@ let obj = [{
 },
 
 {
-  id: "19",
+  id: 19,
   name: "Toni",
   lastName: "Shey",
   born: 1973,
@@ -2141,7 +2049,7 @@ let obj = [{
 },
 
 {
-  id: "20",
+  id: 20,
   name: "John G",
   lastName: "Miller",
   born: 1958,
@@ -2251,7 +2159,7 @@ let obj = [{
 },
 
 {
-  id: "21",
+  id: 21,
   name: "Uolter Ayzekson",
   lastName: "Miller",
   born: 1952,
@@ -2357,7 +2265,7 @@ let obj = [{
   ]
 },
 {
-  id: "22",
+  id: 22,
   name: "John G",
   lastName: "Miller",
   born: 1813,
@@ -2465,7 +2373,7 @@ let obj = [{
   ]
 },
 {
-  id: "23",
+  id: 23,
   name: "Malcolm",
   lastName: "Gladwell",
   born: 1963,
@@ -2577,7 +2485,7 @@ let obj = [{
   ]
 },
 {
-  id: "24",
+  id: 24,
   name: "Henri",
   lastName: "Ford",
   born: 1863,
@@ -2680,8 +2588,9 @@ let obj = [{
       electron: "pdf, epub"
     }
   ]
-}, {
-  id: "25",
+}, 
+{
+  id: 25,
   name: "Maksvell",
   lastName: "Jhon",
   born: 1978,
@@ -2771,7 +2680,7 @@ let obj = [{
 },
 
 {
-  id: "26",
+  id: 26,
   name: "Brian",
   lastName: " Tracy",
   born: 1944,
@@ -2858,7 +2767,7 @@ let obj = [{
 },
 
 {
-  id: "27",
+  id: 27,
   name: "Barrall",
   lastName: "Irene",
   born: 1944,
@@ -2955,7 +2864,7 @@ let obj = [{
 },
 
 {
-  id: "28",
+  id: 28,
   name: "Djosh",
   lastName: "Kaufman",
   born: 1982,
@@ -3042,7 +2951,7 @@ let obj = [{
 },
 
 {
-  id: "29",
+  id: 29,
   name: "Kreynston",
   lastName: "Krinstensen",
   born: 1952,
@@ -3129,7 +3038,7 @@ let obj = [{
 },
 
 {
-  id: "30",
+  id: 30,
   name: "Feris",
   lastName: "Timmoti",
   born: 1977,
@@ -3221,7 +3130,7 @@ let obj = [{
 },
 
 {
-  id: "31",
+  id: 31,
   name: "Godin",
   lastName: "Set",
   born: 1960,
@@ -3309,7 +3218,7 @@ let obj = [{
 },
 
 {
-  id: "32",
+  id: 32,
   name: "Maykl",
   lastName: "Gerber",
   born: 1936,
@@ -3401,8 +3310,9 @@ let obj = [{
       electron: "pdf, bepub",
     },
   ],
-}, {
-  id: "33",
+}, 
+{
+  id: 32,
   name: "Ahmad Muhammad",
   lastName: "Tursun",
   born: 1949,
@@ -3508,7 +3418,7 @@ let obj = [{
   ]
 },
 {
-  id: "34",
+  id: 33,
   name: "Usmonxon",
   lastName: "Olimov",
   born: 1950,
@@ -3616,7 +3526,7 @@ let obj = [{
   ]
 },
 {
-  id: "35",
+  id: 34,
   name: "Abu Abdulloh Muhammad ibn Ismoil",
   lastName: "ibn Ibrohim al Buxoriy",
   born: 810,
@@ -3722,7 +3632,7 @@ let obj = [{
   ]
 },
 {
-  id: "36",
+  id: 35,
   name: "Imomi",
   lastName: "Aʼzam",
   born: 699,
@@ -3826,7 +3736,7 @@ let obj = [{
   ]
 },
 {
-  id: "37",
+  id: 36,
   name: "Hasanxon Yahyo",
   lastName: "Abdulmajid",
   born: 1981,
@@ -3934,7 +3844,7 @@ let obj = [{
   ]
 },
 {
-  id: "38",
+  id: 38,
   name: "Turan",
   lastName: "Dursun",
   born: 1934,
@@ -4040,7 +3950,7 @@ let obj = [{
   ]
 },
 {
-  id: "39",
+  id: 39,
   name: "Abu Abdulloh Muhammad ibn Ismoil",
   lastName: "ibn Ibrohim al Buxoriy",
   born: 810,
@@ -4146,7 +4056,7 @@ let obj = [{
   ]
 },
 {
-  id: "40",
+  id: 40,
   name: "Imomi",
   lastName: "Aʼzam",
   born: 699,
@@ -4250,7 +4160,7 @@ let obj = [{
   ]
 },
 {
-  id: "41",
+  id: 41,
   name: "Ahmad Muhammad",
   lastName: "Tursun",
   born: 1949,
@@ -4689,7 +4599,7 @@ let obj = [{
 },
 {
   id: 45,
-  genre: "uzbek",
+  genre: "o'zbek",
   img: "https://imgur.com/Lnmh2kj.jpg",
   name: "Oybek",
   lastName: "Musa",
@@ -4801,7 +4711,7 @@ let obj = [{
   ]
 },
 {
-  id:  46,
+  id: 46,
   genre: "o'zbek",
   img: "https://milliycha.uz/wp-content/uploads/2021/11/ulmas-umarbekov.jpg",
   name: "O'lmas",
@@ -4916,7 +4826,7 @@ let obj = [{
 },
 {
   id: 47,
-  genre: "uzbek",
+  genre: "o'zbek",
   img: "https://imgur.com/tJ0zO8U.jpg",
   name: "Shuhrat",
   lastName: "Alimov",
@@ -5119,7 +5029,7 @@ let obj = [{
 },
 {
   id: 49,
-  genre: "uzbek",
+  genre: "o'zbek",
   img: "https://arboblar.uz/upload/people/n/389ac7371fece8a9be69645de259de470528.jpg",
   name: "Mirkarim",
   lastName: "Osim",
@@ -5229,7 +5139,7 @@ let obj = [{
   ]
 }, {
   id: 50,
-  genre: "uzbek",
+  genre: "o'zbek",
   img: "https://imgur.com/fWybOkT.jpg",
   name: "O'tkir",
   lastName: "Hoshimov",
@@ -5877,119 +5787,7 @@ let obj = [{
     },
   ]
 },
-{
-  id: "216",
-  genre: "o'zbek",
-  img: "https://imgur.com/tJ0zO8U.jpg",
-  name: "Tog'ay",
-  lastName: "Murod",
-  born: 1948,
-  bornDate: 3,
-  bornMonth: "Fev",
-  died: 2003,
-  diedDate: 27,
-  diedMonth: "May",
-  books: 34,
-  audio: 12,
-  desc: `
-        Tog'ay murod (taxallusi; asl ism-sharifi Mengnorov Tog'aymurod) (1948.3.2. — Surxondaryo viloyati Denov tumani Xo'jasoat qishlog'i — 2003.27.5, Toshkent) — O'zbekiston xalq yozuvchisi (1999).
-        Qishlog'idagi 43-maktabni bitirgach (1966), Toshkent Davlat universiteti (hozirgi O'zMU)ning jurnalistika fakultetida o'qigan (1966-1972). U respublika radiosida muharrir (1972-1976), „O'zbekiston fizkulturachsi“ gazetasida tarjimon (1976-1978), „Fan va turmush“ jurnalida bo'lim muharriri (1982-1984) bo'lgan. 1985-1987-yillarda Moskvadagi Adabiyot institutida o'qigan.
-    `,
-  jobs: `
-        Dastlab kichik hikoyalari, ocherklari e'lon qilingan. 1976-yilda bosilgan „Yulduzlar mangu yonadi“ nomli ilk qissasi bilan yaxshi yozuvchi sifatida tanildi. 1979-yilda „Ot kishnagan oqshom“, 1980-yilda „Oydinda yurgan odamlar“, 1985-yilda yozuvchining „Momo yer qo'shig'i“ qissalari chop etildi. Keyingi qissasi uchun yozuvchi Oybek nomidagi mukofot bilan taqdirlandi. Ularda halol, oqko'ngil, to'g'riso'z, mard o'zbek kishilarining betakror obrazlari yaratilgan. O'zbek adabiyotining yutug'i sifatida e'tirof etilgan bu qissalar tilining shoirona jozibadorligi, xarakterlarning yorqinligi, milliy ruhi bilan ajralib turadi. Tog'ay Murod o'zbek va jahon adabiyotining eng yaxshi an'analarini muvaffaqiyat bilan davom ettirgan.
-    `,
-  location: "Surxondaryo, Uzbekistan",
-  bookObj: [{
-      bookId: "217",
-      bookImg: 'https://imgur.com/5P7nvu9.jpg',
-      bookName: "Otamdan qolgan dalalar",
-      bookRating: 5,
-      bookGenre: "o'zbek",
-      bookPage: 360,
-      published: 2018,
-      bookSenario: "Roman",
-      nashriyot: "O'zbekiston nashriyoti",
-      bookInfo: `
-                Otamdan qolgan dalalar—O'zbekiston xalq yozuvchisi Tog'ay Murod qalamiga mansub 1986-1991-yillarda yozilgan ramziy roman. Ilk marotaba „Yoshlik“ jurnalining 1993-yildagi sonida qisman elon qilingan. To'liq tarzda 1994-yilda Sharq nashriyot-matbaa konsernining bosh tahiriryati tominidan 272 betli qattiq muqovada 75000 nusxada nashr etilgan. So'nggi marta 2018-yilda O'zbekiston nashriyot-matbaa ijodiy uyi tomonidan 360 betli 5000 nusxali qattiq muqovada nashr etildi.
-            `,
-      bookInfoTwo: `
-                O'zbek adabiyotshunoslarining tahlilicha Tog'ay Murodning ilk romani „Otamdan qolgan dalalar“ o'zbek milliy adabiyoti tarixida muhim hodisa bo'lgan. Asarni yozishga kirishar ekan, yozuvchi o'zini, o'zining hayot haqidagi bilim, tasavvurlarini qayta tanqidiy taftishdan o'tkazadi. Shu paytga qadar amal qilgan ijodiy aqidalariga sodiq qolgan holda qishloq hayoti, oddiy odamlar turmushini o'zgacha nigoh bilan anglash yo'lini tutadi.
-                Mustabid tuzum sharoitida oddiy zahmatkash mehnat ahli ayni o'sha noyob fazilatlari — to'g'riso'zligi, mehnatkashligi, halolligi, odob-andishasi tufayli xor bo'layotganligini adib chuqur alam-iztirob, nadomatlar bilan tasvirlaydi. Asarda ijtimoiy ruh — pafos keng ko'lam kasb etadi. Roman markazida Dehqonqul taqdiri turadi. Asar voqealari hayoti, taqdir-qismati, ruhiy dunyosi, ona-yer, kindik qoni to'kilgan muqaddas tuproq bilan mustahkam bog'liq, o'zbekning ramzi degulik mehnatkash inson — bosh qahramon Dehqonqul tilidan so'zlab beriladi.
-            `,
-      bookPrice: "45 000 so'm",
-      audioTime: "4:96 soat",
-      electron: "pdf, epub"
 
-    },
-    {
-      bookId: "218",
-      bookImg: 'https://uz.wikipedia.org/wiki/Ot_kishnagan_oqshom#/media/Fayl:Ot_kishnagan_oqshom.jpg',
-      bookName: "Ot kishnagan oqshom",
-      bookRating: 5.4,
-      bookGenre: "o'zbek",
-      bookPage: 464,
-      published: 1994,
-      bookSenario: "Roman",
-      nashriyot: "Sharq nashriyoti",
-      bookInfo: `
-                Ot kishnagan oqshom - Tog'ay Murod qissalari, “Sharq” nashriyot-matbaa konsernining Bosh tahririyati tomonidan 1994-yilda chop etilgan.   Mazkur kitobda Yulduzlar mangu yonadi, Ot kishnagan oqshom, Oydinda yurgan odamlar, Momo yer qo'shig'i qissalari jamlangan.   
-            `,
-      bookInfoTwo: `
-                Bu qissalar ne bir kunlarni ko'rmadi!
-                Zoti nomard bo'ldi, ushbu qissalar yoqasidan oldi. Og'zi buzuq bo'ldi, ushbu qissalarga tupugini sochdi. Qo'li nopok bo'ldi, ushbu qissalardan butun-butun boblarni o'chirib tashladi.
-                Oqibat, ushbu qissalar o'z vaqtida pati yulinmish tovuq misol chop etildi.
-                Alqissa, dorilomon kunlar keldi. «Ot kishnagan oqshom»dagi Ziyodulla chavandozchasiga aytar bo'lsak... uloq Tog'ay Murodda ketdi!
-            `,
-      bookPrice: "35 000 so'm",
-      audioTime: "9:45 soat",
-      electron: "pdf, epub"
-
-    },
-    {
-      bookId: "219",
-      bookImg: 'https://kitobxon.com/img_knigi/7740.jpg',
-      bookName: "Bu dunyoda o'lib bo'lmaydi",
-      bookRating: 5.4,
-      bookGenre: "o'zbek",
-      bookPage: 460,
-      published: 1963,
-      bookSenario: "Roman",
-      nashriyot: "Yangi asr avlodi nashriyoti",
-      bookInfo: ` 
-                Istedodli adibning “Bu dunyoda o'lib bo'lmaydi” romanini ham inson xarakteri uning ichki kechinmalari, ayanchli hayoti Botir Firqa obrazida o'z ifodasini topgan. Anashu nuqtai nazardan mustaqil ishining keyingi sahifalarida Botir Firqa xarakterining tasviri, adibning xarakter yaratish mahorati, asar syujeti, badiiy konflikt ya'ni poetik xususiyatlar hamda yozuvchi uslubi haqida fikr yuritamiz.
-            `,
-      bookInfoTwo: `
-                Bugungi kunda jahon romanchiligi bilan bahsga kirishayotgan romanchiligimiz taraqqiyoti yo'lida yozuvchilarimiz olib borayotgan ijodiy izlanishlar, badiiy talqinlar o'z yo'lini topish uchun urunishlar, izlanishlr o'zining samarasini bermoqda. yangi o'zbek romanini yaratishda Tog'at Murodning alohida o'rnini qayd etish zarur. O'zbek romanchiligida yangi badiiy-estetik tamoyillar yuzaga kelishi va shakkalanib ma'lum bir ijobiy shakl shamoyilga ega bo'lishi uchun o'n yilliklar juda qisqadir. Xuddi shu qisqa fursatda yozuvchilarimiz milliy romanchiligimiz taraqqiy etish uchun o'z individual uslublariga ega bo'lishi yillar davomida tazyiq ostida yashagan ong ozod bo'lishi krrakligini to'liq anglab etganligi ozi nihoyatda sezilarli holdir.
-                Asarning bosh qahramoni ya'ni xarakter darajasiiga ko'tarilgan obreaz Botir Esanovdir. “Tagi ko'rmanda gilam bitmasin Qodiqqulni chevarasi, Xolmat malayni nevarasi, Eson xizmatkorning bolasi Botir Qushchi tumandan aynib keldi. Qo'shchi kalandimog-kalandimog qadam bosdi. kibar-kibar quloch otdi, kermaqosh-kqrmaqosh otdi.
-            `,
-      bookPrice: "29 000 so'm",
-      audioTime: "7:20 soat",
-      electron: "pdf, epub"
-
-    },
-    {
-      bookId: "220",
-      bookImg: 'https://imgur.com/sdoBarL.jpg',
-      bookName: "Oydinda yurgan odamlar",
-      bookRating: 3,
-      bookGenre: "o'zbek",
-      bookPage: 400,
-      published: 1980,
-      bookSenario: "Qissa",
-      nashriyot: "Sharq nashriyoti",
-      bookInfo: `
-                Qissa qahramoni Ziyodulla oddiy bir cho'pon. Uning o'z oti Tarlonga bo'lgan mehri - insonning tabiatga qo'ygan mehriday sof. Tarlon tabiat timsoli bo'lgani uchun ham yozuvchi uni yorqin bir obraz darajasiga ko'tarib tasvirlaydi.
-            `,
-      bookInfoTwo: `
-                Tog'ay Murodning 1980-yili chop etilgan «Oydinda yurgan odamlar» qissasi adibninggina emas, o'zbek milliy adabiyotining noyob namunasi hisoblanadi. Bu asar yozuvchining eng dilbar va muallifning o'z so'zi bilan aytganda, ,,ne kunlarni ko'rmagan”, eng murakkab taqdirli qissasidir. Bu kitob O'zbekiston Yozuvchilar uyushmasining Oybek nomidagi mukofoti bilan taqdirlangan. Ushbu qissa nomini o'qishingiz bilanoq sizni allaqanday sirli-sehrli oydin kecha bag'riga oladi. Ichingizga ajib bir nur o'rmalab kiradi. Dil-dilingizni yoritib yuboradi. Qissa qahramonlari Qoplon va Oymomo farzand orzu-ilinjida kun, oy, yillarni bir-biriga ulab yashashadi. Hali tug'ilmagan bolaning bobosi, momosi bo'lib zurriyotni, bir-birlarini ardoqlashadi. Tog'ay Murod chol kampir hayotini g'oyat nozik, g'oyat shoirona tasvirlaydi. Chol-kampirning o'zaro mehr-muhabbatini qo'shiqdek kuylab beradi. Tog'ay Murod bir-birini Bobosi, Momosi, deya atab umr o'tkazayotgan bir juft pokiza insonni oydindagi oy nuriga o'rab tasvirlaydi. Oqibatda, ushbu juftning o'zi ham, so'zi ham, turish-turmushi ham oyning kumush nurlariga yo'g'rilib ketadi. Asar qahramonlari fojeasi umid va yorug'likka to'la mungli, hazin qo'shiq qilib kuylanadi.
-            `,
-      bookPrice: "25 000 so'm",
-      audioTime: "5:45 soat",
-      electron: "pdf, epub"
-
-    },
-  ]
-},
 {
   id: 56,
   genre: "o'zbek",
@@ -6102,7 +5900,7 @@ let obj = [{
   ]
 },
 {
-  id : "57",
+  id : 57,
   name : "Alisher",
   lastName : "Navoiy",
   born : 1441,  
@@ -6213,7 +6011,7 @@ let obj = [{
 },
 
 {
-  id : "58",
+  id: 58,
   name : "Xudoyberdi ",
   lastName : "To'xtaboyev",
   born : 1932,  
@@ -6329,7 +6127,7 @@ let obj = [{
 },
 
 {
-  id : "59",
+  id : 59,
   name : "Muhammad",
   lastName : "Yusuf",
   born : 1954,  
@@ -6441,7 +6239,7 @@ let obj = [{
 },
 
 {
-  id : "60",
+  id : 60,
   name : "Abdulla",
   lastName : "Oripov ",
   born : 1941,  
@@ -6561,7 +6359,7 @@ let obj = [{
 },
 
 {
-  id : "61",
+  id : 61,
   name : "Odil",
   lastName : "Yoqubov",
   born : 1926,  
@@ -6670,7 +6468,7 @@ let obj = [{
 },
 
 {
-  id : "62",
+  id : 62,
   name : "Abdulhamid ",
   lastName : "Choʻlpon",
   born : 1897,  
@@ -6775,7 +6573,7 @@ let obj = [{
 },
 
 {
-  id : "63",
+  id : 63,
   name : "Tohir  ",
   lastName : "Malik",
   born : 1946,  
@@ -6881,7 +6679,7 @@ let obj = [{
 },
 
 {
-  id : "64",
+  id : 64,
   name : "Pirimqul",
   lastName : "Qodirov",
   born : 1928,  
@@ -6989,7 +6787,7 @@ let obj = [{
 },
 
 {
-  id : "65",
+  id : 65,
   name : "Ahmad Lutfiy ",
   lastName : "Qozonchi",
   born : 1936,  
@@ -7093,7 +6891,7 @@ let obj = [{
   ]
 },
 {
-  id : "66",
+  id : 66,
   name : "Muhammad Sodiq  ",
   lastName : "Muhammad Yusuf",
   born : 1952,  
@@ -7198,7 +6996,7 @@ let obj = [{
   ]
 },
 {
-  id : "67",
+  id : 67,
   name : "Usmonxon",
   lastName : "Alimov",
   born : 1950,  
@@ -7299,7 +7097,7 @@ let obj = [{
   ]
 },
 {
-  id : "68",
+  id : 68,
   name : "Ahmad Qodiy",
   lastName : "Maqsudiy",
   born : 1868,  
@@ -7394,7 +7192,7 @@ let obj = [{
   ]
 },
 {
-  id : "69",
+  id : 69,
   name : " Alouddin ",
   lastName : "Mansur",
   born : 1952,  
@@ -7453,7 +7251,7 @@ let obj = [{
   ]
 },
 {
-  id : "70",
+  id : 70,
   name : "Jaloliddin ",
   lastName : "Rumiy",
   born : 1207,  
@@ -7512,6 +7310,119 @@ let obj = [{
       electron : "pdf, epub"      
     },
 
+  ]
+},
+{
+  id: 71,
+  genre: "o'zbek",
+  img: "https://imgur.com/tJ0zO8U.jpg",
+  name: "Tog'ay",
+  lastName: "Murod",
+  born: 1948,
+  bornDate: 3,
+  bornMonth: "Fev",
+  died: 2003,
+  diedDate: 27,
+  diedMonth: "May",
+  books: 34,
+  audio: 12,
+  desc: `
+        Tog'ay murod (taxallusi; asl ism-sharifi Mengnorov Tog'aymurod) (1948.3.2. — Surxondaryo viloyati Denov tumani Xo'jasoat qishlog'i — 2003.27.5, Toshkent) — O'zbekiston xalq yozuvchisi (1999).
+        Qishlog'idagi 43-maktabni bitirgach (1966), Toshkent Davlat universiteti (hozirgi O'zMU)ning jurnalistika fakultetida o'qigan (1966-1972). U respublika radiosida muharrir (1972-1976), „O'zbekiston fizkulturachsi“ gazetasida tarjimon (1976-1978), „Fan va turmush“ jurnalida bo'lim muharriri (1982-1984) bo'lgan. 1985-1987-yillarda Moskvadagi Adabiyot institutida o'qigan.
+    `,
+  jobs: `
+        Dastlab kichik hikoyalari, ocherklari e'lon qilingan. 1976-yilda bosilgan „Yulduzlar mangu yonadi“ nomli ilk qissasi bilan yaxshi yozuvchi sifatida tanildi. 1979-yilda „Ot kishnagan oqshom“, 1980-yilda „Oydinda yurgan odamlar“, 1985-yilda yozuvchining „Momo yer qo'shig'i“ qissalari chop etildi. Keyingi qissasi uchun yozuvchi Oybek nomidagi mukofot bilan taqdirlandi. Ularda halol, oqko'ngil, to'g'riso'z, mard o'zbek kishilarining betakror obrazlari yaratilgan. O'zbek adabiyotining yutug'i sifatida e'tirof etilgan bu qissalar tilining shoirona jozibadorligi, xarakterlarning yorqinligi, milliy ruhi bilan ajralib turadi. Tog'ay Murod o'zbek va jahon adabiyotining eng yaxshi an'analarini muvaffaqiyat bilan davom ettirgan.
+    `,
+  location: "Surxondaryo, Uzbekistan",
+  bookObj: [{
+      bookId: "217",
+      bookImg: 'https://imgur.com/5P7nvu9.jpg',
+      bookName: "Otamdan qolgan dalalar",
+      bookRating: 5,
+      bookGenre: "o'zbek",
+      bookPage: 360,
+      published: 2018,
+      bookSenario: "Roman",
+      nashriyot: "O'zbekiston nashriyoti",
+      bookInfo: `
+                Otamdan qolgan dalalar—O'zbekiston xalq yozuvchisi Tog'ay Murod qalamiga mansub 1986-1991-yillarda yozilgan ramziy roman. Ilk marotaba „Yoshlik“ jurnalining 1993-yildagi sonida qisman elon qilingan. To'liq tarzda 1994-yilda Sharq nashriyot-matbaa konsernining bosh tahiriryati tominidan 272 betli qattiq muqovada 75000 nusxada nashr etilgan. So'nggi marta 2018-yilda O'zbekiston nashriyot-matbaa ijodiy uyi tomonidan 360 betli 5000 nusxali qattiq muqovada nashr etildi.
+            `,
+      bookInfoTwo: `
+                O'zbek adabiyotshunoslarining tahlilicha Tog'ay Murodning ilk romani „Otamdan qolgan dalalar“ o'zbek milliy adabiyoti tarixida muhim hodisa bo'lgan. Asarni yozishga kirishar ekan, yozuvchi o'zini, o'zining hayot haqidagi bilim, tasavvurlarini qayta tanqidiy taftishdan o'tkazadi. Shu paytga qadar amal qilgan ijodiy aqidalariga sodiq qolgan holda qishloq hayoti, oddiy odamlar turmushini o'zgacha nigoh bilan anglash yo'lini tutadi.
+                Mustabid tuzum sharoitida oddiy zahmatkash mehnat ahli ayni o'sha noyob fazilatlari — to'g'riso'zligi, mehnatkashligi, halolligi, odob-andishasi tufayli xor bo'layotganligini adib chuqur alam-iztirob, nadomatlar bilan tasvirlaydi. Asarda ijtimoiy ruh — pafos keng ko'lam kasb etadi. Roman markazida Dehqonqul taqdiri turadi. Asar voqealari hayoti, taqdir-qismati, ruhiy dunyosi, ona-yer, kindik qoni to'kilgan muqaddas tuproq bilan mustahkam bog'liq, o'zbekning ramzi degulik mehnatkash inson — bosh qahramon Dehqonqul tilidan so'zlab beriladi.
+            `,
+      bookPrice: "45 000 so'm",
+      audioTime: "4:96 soat",
+      electron: "pdf, epub"
+
+    },
+    {
+      bookId: "218",
+      bookImg: 'https://uz.wikipedia.org/wiki/Ot_kishnagan_oqshom#/media/Fayl:Ot_kishnagan_oqshom.jpg',
+      bookName: "Ot kishnagan oqshom",
+      bookRating: 5.4,
+      bookGenre: "o'zbek",
+      bookPage: 464,
+      published: 1994,
+      bookSenario: "Roman",
+      nashriyot: "Sharq nashriyoti",
+      bookInfo: `
+                Ot kishnagan oqshom - Tog'ay Murod qissalari, “Sharq” nashriyot-matbaa konsernining Bosh tahririyati tomonidan 1994-yilda chop etilgan.   Mazkur kitobda Yulduzlar mangu yonadi, Ot kishnagan oqshom, Oydinda yurgan odamlar, Momo yer qo'shig'i qissalari jamlangan.   
+            `,
+      bookInfoTwo: `
+                Bu qissalar ne bir kunlarni ko'rmadi!
+                Zoti nomard bo'ldi, ushbu qissalar yoqasidan oldi. Og'zi buzuq bo'ldi, ushbu qissalarga tupugini sochdi. Qo'li nopok bo'ldi, ushbu qissalardan butun-butun boblarni o'chirib tashladi.
+                Oqibat, ushbu qissalar o'z vaqtida pati yulinmish tovuq misol chop etildi.
+                Alqissa, dorilomon kunlar keldi. «Ot kishnagan oqshom»dagi Ziyodulla chavandozchasiga aytar bo'lsak... uloq Tog'ay Murodda ketdi!
+            `,
+      bookPrice: "35 000 so'm",
+      audioTime: "9:45 soat",
+      electron: "pdf, epub"
+
+    },
+    {
+      bookId: "219",
+      bookImg: 'https://kitobxon.com/img_knigi/7740.jpg',
+      bookName: "Bu dunyoda o'lib bo'lmaydi",
+      bookRating: 5.4,
+      bookGenre: "o'zbek",
+      bookPage: 460,
+      published: 1963,
+      bookSenario: "Roman",
+      nashriyot: "Yangi asr avlodi nashriyoti",
+      bookInfo: ` 
+                Istedodli adibning “Bu dunyoda o'lib bo'lmaydi” romanini ham inson xarakteri uning ichki kechinmalari, ayanchli hayoti Botir Firqa obrazida o'z ifodasini topgan. Anashu nuqtai nazardan mustaqil ishining keyingi sahifalarida Botir Firqa xarakterining tasviri, adibning xarakter yaratish mahorati, asar syujeti, badiiy konflikt ya'ni poetik xususiyatlar hamda yozuvchi uslubi haqida fikr yuritamiz.
+            `,
+      bookInfoTwo: `
+                Bugungi kunda jahon romanchiligi bilan bahsga kirishayotgan romanchiligimiz taraqqiyoti yo'lida yozuvchilarimiz olib borayotgan ijodiy izlanishlar, badiiy talqinlar o'z yo'lini topish uchun urunishlar, izlanishlr o'zining samarasini bermoqda. yangi o'zbek romanini yaratishda Tog'at Murodning alohida o'rnini qayd etish zarur. O'zbek romanchiligida yangi badiiy-estetik tamoyillar yuzaga kelishi va shakkalanib ma'lum bir ijobiy shakl shamoyilga ega bo'lishi uchun o'n yilliklar juda qisqadir. Xuddi shu qisqa fursatda yozuvchilarimiz milliy romanchiligimiz taraqqiy etish uchun o'z individual uslublariga ega bo'lishi yillar davomida tazyiq ostida yashagan ong ozod bo'lishi krrakligini to'liq anglab etganligi ozi nihoyatda sezilarli holdir.
+                Asarning bosh qahramoni ya'ni xarakter darajasiiga ko'tarilgan obreaz Botir Esanovdir. “Tagi ko'rmanda gilam bitmasin Qodiqqulni chevarasi, Xolmat malayni nevarasi, Eson xizmatkorning bolasi Botir Qushchi tumandan aynib keldi. Qo'shchi kalandimog-kalandimog qadam bosdi. kibar-kibar quloch otdi, kermaqosh-kqrmaqosh otdi.
+            `,
+      bookPrice: "29 000 so'm",
+      audioTime: "7:20 soat",
+      electron: "pdf, epub"
+
+    },
+    {
+      bookId: "220",
+      bookImg: 'https://imgur.com/sdoBarL.jpg',
+      bookName: "Oydinda yurgan odamlar",
+      bookRating: 3,
+      bookGenre: "o'zbek",
+      bookPage: 400,
+      published: 1980,
+      bookSenario: "Qissa",
+      nashriyot: "Sharq nashriyoti",
+      bookInfo: `
+                Qissa qahramoni Ziyodulla oddiy bir cho'pon. Uning o'z oti Tarlonga bo'lgan mehri - insonning tabiatga qo'ygan mehriday sof. Tarlon tabiat timsoli bo'lgani uchun ham yozuvchi uni yorqin bir obraz darajasiga ko'tarib tasvirlaydi.
+            `,
+      bookInfoTwo: `
+                Tog'ay Murodning 1980-yili chop etilgan «Oydinda yurgan odamlar» qissasi adibninggina emas, o'zbek milliy adabiyotining noyob namunasi hisoblanadi. Bu asar yozuvchining eng dilbar va muallifning o'z so'zi bilan aytganda, ,,ne kunlarni ko'rmagan”, eng murakkab taqdirli qissasidir. Bu kitob O'zbekiston Yozuvchilar uyushmasining Oybek nomidagi mukofoti bilan taqdirlangan. Ushbu qissa nomini o'qishingiz bilanoq sizni allaqanday sirli-sehrli oydin kecha bag'riga oladi. Ichingizga ajib bir nur o'rmalab kiradi. Dil-dilingizni yoritib yuboradi. Qissa qahramonlari Qoplon va Oymomo farzand orzu-ilinjida kun, oy, yillarni bir-biriga ulab yashashadi. Hali tug'ilmagan bolaning bobosi, momosi bo'lib zurriyotni, bir-birlarini ardoqlashadi. Tog'ay Murod chol kampir hayotini g'oyat nozik, g'oyat shoirona tasvirlaydi. Chol-kampirning o'zaro mehr-muhabbatini qo'shiqdek kuylab beradi. Tog'ay Murod bir-birini Bobosi, Momosi, deya atab umr o'tkazayotgan bir juft pokiza insonni oydindagi oy nuriga o'rab tasvirlaydi. Oqibatda, ushbu juftning o'zi ham, so'zi ham, turish-turmushi ham oyning kumush nurlariga yo'g'rilib ketadi. Asar qahramonlari fojeasi umid va yorug'likka to'la mungli, hazin qo'shiq qilib kuylanadi.
+            `,
+      bookPrice: "25 000 so'm",
+      audioTime: "5:45 soat",
+      electron: "pdf, epub"
+
+    },
   ]
 },
 ];

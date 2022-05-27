@@ -1,0 +1,22 @@
+@import '../../../assets/scss/main.scss';
+
+.pag {
+    @include between;
+    width: 500px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #263a3d;
+    padding: 0 10px;
+    margin: 0 auto 40px auto;
+    &__btn {
+        width: 50px;
+        height: 60px;
+        background-color: #4e757c;
+        border: none;
+        border-radius: 20px;
+        @include center;
+        color: $white-color;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

@@ -7,6 +7,7 @@ import Category from './Category/Category'
 import obj from '../anotherObject'
 
 
+
 function Main() {
 
   let [arr, setArr]= useState([])
@@ -27,6 +28,7 @@ function Main() {
            setArr = {setArr}
            obj = {obj}
         />
+  
     </Aux>
   )
 }

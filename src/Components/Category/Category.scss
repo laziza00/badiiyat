@@ -50,14 +50,15 @@
         border-radius: 15px;
         margin: 0 15px 44px;
         width: 174px;
-        height: 269px;
+        height: 289px;
         text-decoration: none;
+ 
     }
     &__img-box {
         overflow: hidden;
     }
     &__item-inner {
-        padding: 0 14px 25px;
+        padding: 0 14px 30px;
     }
     &__item-img {
         width: 174px;
@@ -97,5 +98,22 @@
         height: 24px;
         margin: 0 auto;
         text-align: center;
+    }
+    .bxs-book-alt {
+        font-size: 20px;
+        color: $white-color;
+    }
+    .bx-headphone {
+        font-size: 20px;
+        color: $white-color;
+    }
+    &__audio {
+        font-family: 'Steinbeck';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin: 0;
     }
 }

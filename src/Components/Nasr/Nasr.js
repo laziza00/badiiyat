@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import Hero from '../Hero/Hero'
+import obj from '../../anotherObject'
+import PersonItem from '../Category/Persons/PersonItem'
 
 
 function Nasr() {
+
+  const [newBookArr, setBookArr]= useState([])
+
+  useEffect(()=> {
+    setBookArr(obj)
+  }, [])
   return (
-    <div>
-        <h1>Nasr</h1>
+    <div className='App'>
+       <Hero /> 
+       <PersonItem  />
+
     </div>
   )
 }

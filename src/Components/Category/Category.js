@@ -1,14 +1,28 @@
-import React from 'react'
 import CategoryNav from './CategoryNav/CategoryNav'
 import './Category.scss'
 import Aux from '../../hoc/Aux'
 import CategoryList from './CategoryList/CategoryList'
+import Pagination from './Pagination/Pagination'
+import React, { useState } from 'react'
 
 function Category(props) {
 
     let categoryArr = ["All", "Jahon adabiyoti", "Diniy adabiyot", "O'zbek adabiyoti", "Biznes adabiyoti"]
-
     let typeArr =[' ', 'jahon', "Diniy", "o'zbek","biznes"]
+
+    let objArr =  props.arr
+    const [part, setPart] = useState(10)
+    const [data, setData] = useState(objArr.slice(0, 10))
+    let partLength = objArr.length /part;
+    const newArrBtn = []
+
+    for(let i = 1; i <= partLength; i++) newArrBtn.push(i)
+
+    const handlerPagination =(e)=> {
+        let start =(e.target.id -1) *part;
+        let partsArr =objArr.slice(start, (part+start))
+        setData(partsArr)
+    }
 
   return (
         <Aux>
@@ -30,6 +44,7 @@ function Category(props) {
                             })}
                          </ul>
                         <div className='category__list-box'>
+
                             <ul className='category__list'>
                                 {props.arr.map((item, index)=> (
                                     <CategoryList
@@ -39,6 +54,19 @@ function Category(props) {
                                             />
                                     ))}
                             </ul>
+                        </div>
+                        <div> 
+                         <div className='pag'>
+                                 {newArrBtn && newArrBtn.map((el, i)=> (
+                                    <button className='pag__btn'
+                                    onClick={handlerPagination}
+                                    key ={i}
+                                    id ={el}
+                                     >
+                                     {el}
+                                    </button>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -134,8 +134,8 @@
     }
     &__inner-text {
         @include text;
-        width: 566px;
-        // height: 241px;
+        width: 100%;
+        
     }
     &__share {
         @include d-flex;
