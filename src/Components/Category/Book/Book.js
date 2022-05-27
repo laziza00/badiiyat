@@ -4,7 +4,7 @@ import {Link, useLocation} from 'react-router-dom'
 // import { Link } from 'react-router-dom';
 import obj from '../../../anotherObject'
 import CategoryList from '../CategoryList/CategoryList'
-import PersonItem from '../Persons/PersonItem'
+import Items from '../Persons/Items'
 
 
 function Book(props) {
@@ -130,11 +130,11 @@ let bookHandler =(elId)=> {
                                 <p className='book__other-link'>Barchasini ko’rish</p>
                             </div>
                             <div>
-                                <ul className='book__book-list' style={{listStyleType: "none", display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
+                                <ul className='book__list' style={{listStyleType: "none", display: "flex", justifyContent: "center", flexWrap: "wrap"}}>
                                     {arr.map((thing, i)=> {
                                         if(i<2) {
                                             return thing.bookObj.map((book, index)=> {
-                                                return <PersonItem
+                                                return <Items
                                                 key={"k"+index}
                                                 bookImg={book.bookImg}
                                                 bookName={book.bookName}

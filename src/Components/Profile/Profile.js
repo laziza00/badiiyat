@@ -3,7 +3,7 @@ import Aux from "../../hoc/Aux";
 import './Profile.scss'
 import imgUser from "../../assets/images/avloniy.png"
 import bookImg from "../../assets/images/avloniy.png"
-import PersonItem from "../Category/Persons/PersonItem";
+import Items from "../Category/Persons/Items";
 
 function Profile(props){
 
@@ -53,7 +53,7 @@ function Profile(props){
                 <h2 className="books__title">Kitoblar</h2>
                 <ul className="books__list" style={{listStyleType: "none"}}>
                     {props.saved.map((item, index)=> {
-                        return <PersonItem
+                        return <Items
                         key={"asdtf"+index}
                         bookImg={item[0].bookImg}
                         bookName={item[0].bookName}

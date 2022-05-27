@@ -27,6 +27,7 @@
     }
     &__list {
         @include style-none;
+        flex-wrap: wrap;
     }
     &__item {
         margin: 0 0 20px 0;
@@ -163,4 +164,9 @@
     &__main-link {
         text-decoration: none;
     }
+}
+.items__list {
+    @include style-none;
+    flex-wrap: wrap !important;
+    @include d-flex;
 }

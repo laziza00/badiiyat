@@ -42,6 +42,7 @@
     }
     &__item:hover &__link {
         color: #C9AC8C;
+        transition: all 0.3s ease;
     }
     &__link {
         font-family: 'HelveticaNeueCyr';
